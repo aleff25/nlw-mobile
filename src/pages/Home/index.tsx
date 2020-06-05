@@ -63,9 +63,9 @@ const Home: React.FC = () => {
                 <Icon name="arrow-right" color="#FFF" size={24} />
               </Text>
             </View>
-            <View style={styles.buttonText} >
+            <Text style={styles.buttonText}>
               Entrar
-            </View>
+            </Text>
           </RectButton>
         </View>
       </ImageBackground>

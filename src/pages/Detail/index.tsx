@@ -43,7 +43,7 @@ const Detail: React.FC = () => {
 
   useEffect(() => {
     async function loadPoints() {
-      const response = await api.get('points');
+      const response = await api.get(`points/${routeParams.point_id}`);
 
       setData(response.data);
     }

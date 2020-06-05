@@ -51,7 +51,7 @@ const Points: React.FC = () => {
   useEffect(() => {
     async function loadItems() {
       const response = await api.get('items');
-
+      
       setItems(response.data);
     }
 
@@ -85,7 +85,7 @@ const Points: React.FC = () => {
           items: selectedItems
         }
       });
-
+      
       setPoints(response.data);
     }
 
